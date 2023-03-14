@@ -10,4 +10,9 @@ public class ItemServiceApplication {
 		SpringApplication.run(ItemServiceApplication.class, args);
 	}
 
+	// 글로벌 Validator 추가 방법 (모든곳에 적용됨) // implements WebMvcConfigurer
+//	@Override
+//	public Validator getValidator() {
+//		return new ItemValidator();
+//	}
 }
